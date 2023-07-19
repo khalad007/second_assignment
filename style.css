@@ -179,6 +179,7 @@
     font-weight: 700;
 
 }
+
 .onli_heading {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -207,4 +208,36 @@
     font-size: 13px;
     font-weight: 500;
     margin-top: 10px;
+}
+
+/* game logo section  */
+
+.game_logo_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 150px;
+}
+
+.game_logo_container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-items: center;
+    margin: 40px 180px;
+}
+
+.game_logo_section img {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+
+}
+
+.game_logo_section span {
+    color: #0B0223;
+    font-size: 14px;
+    font-weight: 600;
 }
