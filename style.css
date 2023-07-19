@@ -241,3 +241,87 @@
     font-size: 14px;
     font-weight: 600;
 }
+
+/* .game_logo_container {
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+} */
+
+/* footer  */
+.footer_section_container {
+    background: #0B0223;
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_sec2 {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.footer_sec2 ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 180px 40px 180px;
+    padding: 0 100px;
+}
+
+.logo1 span {
+    color: #FF42A5;
+}
+
+.logo1>img {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.logo1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    margin: 60px;
+    padding-top: 70px;
+}
+
+.social_icon {
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+}
+
+.essential_link ul {
+    display: flex;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.essential_link li {
+    padding: 20px;
+}
+
+.copyright_sec {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 11px;
+    font-weight: 500;
+    padding: 10px 0 80px;
+
+}
