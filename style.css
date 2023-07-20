@@ -130,8 +130,9 @@
     color: #534C64;
     font-size: 13px;
     font-weight: 500;
-
+    text-align: left;
     padding: 6px;
+    margin-left: 55px;
 }
 
 
@@ -153,6 +154,17 @@
     border: none;
     margin-right: 7px;
     margin-top: 20px;
+    color: #FFF;
+}
+
+.btn_primary2 {
+    padding: 12px 24px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    margin-right: 7px;
+    margin-top: 20px;
+    color: #FFF;
 }
 
 /* play instantly section  */
@@ -226,12 +238,47 @@
     display: flex;
     justify-content: space-around;
     margin: 0 150px 0 150px;
+    position: relative;
     /* margin: 25px 165px 100px 165px; */
 }
 
 .onli_img_deco {
     width: 215px;
     height: 235px;
+}
+ /* hover hover   hover   hover  */
+ /* hover hover   hover   hover  */
+
+
+
+.hover_img {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 90px;
+    right: 335px;
+    opacity: 0;
+}
+.hover_heading {
+    position: absolute;
+    top: 150px;
+    right: 315px;
+    color: #FF42A5;
+    opacity: 0;
+}
+.hover_effect:hover {
+    opacity: 0.8;
+    transition: opacity 0.5s;
+    cursor: pointer;
+    /* background-color: #0B0223; */
+}
+.hover_effect:hover .hover_img {
+    opacity: 1;
+
+}
+.hover_effect:hover .hover_heading {
+    opacity: 1;
 }
 
 .online_section_text h3 {
@@ -286,7 +333,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    align-items: center;
     margin: 40px 180px;
 }
 
@@ -295,21 +341,31 @@
     height: 40px;
     flex-shrink: 0;
     border-radius: 50px;
-    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
 
 }
 
 .game_logo_section span {
-    color: #0B0223;
     font-size: 14px;
     font-weight: 600;
+    padding: 10px;
 }
-
-.game_logo_container button:hover {
-    border: 1px solid #FF42A5;
+.game_logo_hover {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.game_logo_hover:hover {
+    border: 1.5px solid #FF42A5;
+    border-radius: 30px;
+    padding: 2px;
     color: #FF42A5;
 }
-
+.game_logo_container span:hover {
+    color: #f74ed2;
+}
+.game_logo_container2 span:hover {
+    color: #f74ed2;
+}
 /* footer footer foooter foooter  */
 /* footer footer foooter foooter  */
 /* footer footer foooter foooter  */
@@ -396,3 +452,5 @@
     padding: 10px 0 80px;
 
 }
+
+
